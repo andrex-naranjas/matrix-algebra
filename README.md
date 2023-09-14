@@ -7,7 +7,7 @@ Code to compute basic matrix operations
 To install the framework you need anaconda and git on a linux machine. In a terminal type:
 1. Clone the repository:
   ```
-  git clone git@github.com:andrex-naranjas/matrix-algebra.git
+  git clone https://github.com/andrex-naranjas/matrix-algebra.git
   ```
 2. Access the code:
   ```
