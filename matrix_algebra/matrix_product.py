@@ -20,11 +20,14 @@ class MatrixMultiplication:
 
     
     def multiply_matrix_native(self):
+        """
+        Method to compute product of two matrices using components
+        """
         global C
         if  self.A.shape[1] == self.B.shape[0]:
             C = np.zeros((self.A.shape[0], self.B.shape[1]), dtype = int)
-            for row in range(rows):
-                for col in range(cols):
+            for row in range(self.A.shape[0]):
+                for col in range(self.B.shape[1]):
                     for elt in range(len(self.B)):
                         C[row, col] += self.A[row, elt] * self.B[elt, col]
             return C

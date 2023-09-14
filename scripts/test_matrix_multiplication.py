@@ -17,4 +17,4 @@ B = np.random.randint(1,10,size = (3,2))
 prod_matrices = MatrixMultiplication(A, B)
 producto_nativo = prod_matrices.multiply_matrix_native()
 
-print(multiply_matrix_native, "Matrix Producto de A y B")
+print(producto_nativo, "Matrix Producto de A y B")
