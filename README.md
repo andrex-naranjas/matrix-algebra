@@ -34,7 +34,7 @@ To install the framework you need anaconda and git on a linux machine. In a term
   conda deactivate
   conda remove --name matrix-algebra --all 
   ```
-   - Go to step 3 for a fresh start
+     - Go to step 3 for a fresh start
 
 
 ## Run jupyter notebooks
