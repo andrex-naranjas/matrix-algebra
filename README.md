@@ -27,13 +27,12 @@ To install the framework you need anaconda and git on a linux machine. In a term
 4. Minimal run:
   ```
   python3 ./scripts/test_matrix_multiplication.py
-```
+  ```
 
 5. Remove the conda enviroment (Optional):
   ```
   conda deactivate
-  conda remove --name matrix-algebra --all
- 
+  conda remove --name matrix-algebra --all 
   ```
   Go to step 3 for a fresh start
 
