@@ -19,7 +19,7 @@ To install the framework you need anaconda and git on a linux machine. In a term
   conda activate matrix-algebra
   conda develop .
   ```
-3.1 Update the conda enviroment:
+3.1 Update the conda enviroment (only when packages have been added/removed):
    ```
    conda env update --file config.yml --prune
    ```
